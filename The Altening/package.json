@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "discord.js": "^13.8.0",
+    "mineflayer": "^4.3.0"
+  }
+}

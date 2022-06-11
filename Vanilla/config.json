@@ -1,0 +1,21 @@
+{
+    "server": {
+        "host": "minehut.com",
+        "port": 25565
+    },
+    "minecraft": {
+        "username": "email@example.com",
+        "password": "PASSWORD",
+        "auth": "microsoft",
+        "serverName": "SERVER_NAME",
+        "adMessage": "&ejoin for fun &cKITPVP &bwith &aRANDOM &aKITS &8(&dNEED STAFF!&8)",
+        "cooldown": 60
+    },
+    "discord": {
+        "token": "TOKEN",
+        "channel": "CHANNEL_ID",
+        "userId": "USER_ID",
+        "customMessage": true
+        
+    }
+}
