@@ -29,7 +29,7 @@ function start() {
                         .setColor('#00FF00')
                         .setAuthor({ name: `${bot.username}`})
                         .setDescription(`${config.minecraft.serverName}\n${config.minecraft.adMessage}`)
-                        .setFooter({ text: config.embed, iconURL: 'https://cdn.discordapp.com/avatars/486155512568741900/31cabcf3c42823f8d8266fd22babb862.png?size=4096' });
+                        .setFooter({ text: '© Made by DuckySoLucky', iconURL: 'https://cdn.discordapp.com/avatars/486155512568741900/31cabcf3c42823f8d8266fd22babb862.png?size=4096' });
                     client.channels.cache.get(config.discord.channel).send({embeds: [ adEmbed ]})
                 }
             })
