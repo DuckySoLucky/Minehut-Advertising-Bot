@@ -4,18 +4,19 @@
         "port": 25565
     },
     "minecraft": {
-        "username": "email@example.com",
-        "password": "PASSWORD",
-        "auth": "microsoft",
+        "username": ["LIST OF ACCOUNTS", "THIS LIST CAN BE ONLY 1 OR INFINITY ACCOUNTS LONG", "REMEMBER THE MORE ACCOUNTS U HAVE THE MORE BLATANT IT WILL BECAUSE A LOT OF ACCS WILL LOG FROM THE SAME IP"],
+        "password": ["PASSWORD", "SAME AS ABOVE"],
+        "auth": ["microsoft", "SAME AS ABOVE"],
         "serverName": "SERVER_NAME",
         "adMessage": "&ejoin for fun &cKITPVP &bwith &aRANDOM &aKITS &8(&dNEED STAFF!&8)",
-        "cooldown": 60
+        "cooldown": "AMOUNT OF SECONDS BETWEEN EACH ADVERTISE (IN MOST OF CASES THE DEFAULT VALUE OF NON RANK)",
+        "waitBeforeLogging": "AMOUNT OF SECONDS BETWEEN EACH BOT LOGIN (I RECOMMEND U PUTTING AT LEAST 5)"
     },
     "discord": {
         "token": "TOKEN",
-        "channel": "CHANNEL_ID",
-        "userId": "USER_ID",
-        "customMessage": true
+        "channel": "CHANNEL",
+        "userId": "USER",
+        "customMessage": false
         
     }
 }
