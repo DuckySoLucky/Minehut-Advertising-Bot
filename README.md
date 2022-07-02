@@ -30,4 +30,3 @@ The token is the Discord application token, if you don't already have a Discord 
 The Discord channel is the ID of the text channel the bot should be linked with, the bot will only send and listen to messages in the channel defined in the config.
 
 The userID is the ID of the user who should get pinged when bot advertises. This is optional and can be toggled by making `customMessage` false
-
